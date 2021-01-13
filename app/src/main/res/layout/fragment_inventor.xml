@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inventor.FragmentInventor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txBuceo"
+            android:layout_width="89dp"
+            android:layout_height="23dp"
+            android:text="TrajeBuceo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgbuceo"
+            android:layout_width="159dp"
+            android:layout_height="227dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/trajebuceo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txBuceo" />
+
+        <TextView
+            android:id="@+id/desbuceo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consistía en un amplio mono fabricado en cuero que cubría también la cabeza a modo de capucha,  con dos cristales integrados para facilitar la visión. De la parte superior sobresalía el equipo de respiración, consistente en dos cañas de bambú atadas con mucho arte a ambos lados de la cabeza"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgbuceo" />
+
+        <TextView
+            android:id="@+id/txtanque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="tanque "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/desbuceo" />
+
+        <ImageView
+            android:id="@+id/imgtank"
+            android:layout_width="251dp"
+            android:layout_height="137dp"
+            android:src="@mipmap/tanque_davinci"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtanque" />
+
+        <TextView
+            android:id="@+id/destank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text=" Es un diseño conceptual de un carro de combate, ideada hacia el año 1487. No hay constancia de que Leonardo llegase a construir un prototipo "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgtank" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

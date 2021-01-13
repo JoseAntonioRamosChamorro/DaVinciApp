@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cientifica.CientFragment">
+
+    <TextView
+        android:id="@+id/txciento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estudios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/desestu"
+        android:layout_width="406dp"
+        android:layout_height="162dp"
+        android:text="Su padre lo inscribió en el taller de Andrea del Verocchio, uno de los más prestigiosos talleres artísticos de la época,  Allí aprendió a cultivar su pasión por las diversas artes y los distintos saberes, desde cálculo algorítmico hasta escultura.  Habiendo superado al maestro,se convirtió en un artista e ingeniero de renombre,  trabajó para el mecenas Ludovico Sforza, Duque de Milán. También lo hizo para los venecianos a quienes ayudó a concebir defensas para su ciudad  y para el Papa León X y el rey de Francia Francisco I."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txciento" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navpintor"
+            android:title="@string/Pintor" />
+        <item
+            android:id="@+id/navescul"
+            android:title="@string/Escultor" />
+        <item
+            android:id="@+id/navcient"
+            android:title="@string/Científico" />
+        <item
+            android:id="@+id/navinventor"
+            android:title="@string/inventor" />
+    </group>
+</menu>

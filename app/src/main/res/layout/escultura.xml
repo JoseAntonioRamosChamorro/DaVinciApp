@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.esculturas.EsculturaFragment">
+
+    <ImageView
+        android:id="@+id/imgvirgen"
+        android:layout_width="293dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/virgenynino"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvirgen" />
+
+    <TextView
+        android:id="@+id/desvirgen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La única escultura que Leonardo
+         abría realizado lleva cerca de 50 años a la vista de todos . Unas cuatro millones de personas
+          la visitan cada año en el Museo Victoria y Albert de Londres,  donde se exhibe como una de sus piezas más célebres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvirgen" />
+
+    <TextView
+        android:id="@+id/txvirgen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La virgen y el niño"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
