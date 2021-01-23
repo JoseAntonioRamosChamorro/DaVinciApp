@@ -23,10 +23,10 @@
         android:label="@string/Científico"
         tools:layout="@layout/cientifi" />
     <fragment
-        android:id="@+id/fragmentInventor"
-        android:name="com.example.davinciapp.ui.inventor.FragmentInventor"
-        android:label="fragment_inventor"
-        tools:layout="@layout/fragment_inventor" />
+        android:id="@+id/inventorFrag"
+        android:name="com.example.davinciapp.InventorFrag"
+        android:label="@string/inventor"
+        tools:layout="@layout/fragmentinventor" />
 
 
 </navigation>

@@ -14,7 +14,7 @@
             android:id="@+id/navcient"
             android:title="@string/Científico" />
         <item
-            android:id="@+id/navinventor"
+            android:id="@+id/inventorFrag"
             android:title="@string/inventor" />
     </group>
 </menu>

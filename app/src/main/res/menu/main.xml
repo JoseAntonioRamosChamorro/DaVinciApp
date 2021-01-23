@@ -2,8 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/altaaction"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/Alta"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/bajaaction"
+        android:orderInCategory="100"
+        android:title="@string/Baja"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/modiaction"
+        android:orderInCategory="100"
+        android:title="@string/Modificacion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/consulaction"
+        android:orderInCategory="100"
+        android:title="@string/Consulta"
+        app:showAsAction="never" />
+
+
 </menu>

@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">DaVinciApp</string>
     <string name="nav_header_title">Leonardo da Vinci</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="Alta">Alta</string>
+    <string name="Baja">Baja</string>
+    <string name="Modificacion">Modificación</string>
+    <string name="Consulta">Consulta</string>
 
     <string name="Pintor">Pintor</string>
     <string name="Escultor">Escultor</string>
     <string name="Científico">Científico</string>
     <string name="inventor">Inventor</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

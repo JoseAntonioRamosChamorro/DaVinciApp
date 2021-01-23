@@ -17,8 +17,8 @@
 
     <TextView
         android:id="@+id/desgiocon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="388dp"
+        android:layout_height="54dp"
         android:layout_marginTop="210dp"
         android:text="La Gioconda o La Mona Lisa, fue adquirida por el rey Francisco I de Francia a comienzos del siglo XVI  y desde entonces es propiedad del Estado francés. "
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,8 +49,8 @@
 
     <TextView
         android:id="@+id/descena"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="381dp"
+        android:layout_height="84dp"
         android:text=" Se encuentra en la pared sobre la que se pintó originalmente,  en el refectorio del convento dominico de Santa Maria delle Grazie, en Milán (Italia), declarado Patrimonio de la Humanidad por la Unesco en 1980. La pintura fue elaborada para su patrón, el duque Ludovico Sforza de Milán"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
